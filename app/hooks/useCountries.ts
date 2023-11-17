@@ -1,8 +1,7 @@
 // <reference types="world-countries" />
-import countries from "world-countries"
+import Countries from "./ countries";
 
-
-const formattedCountries = countries.map((country:any) => ({
+const formattedCountries = Countries.map((country:any) => ({
     label: country.name.common,
     value: country.cca2,
     flag: country.flag,
