@@ -19,7 +19,7 @@ import SearchModal from './components/modals/SearchModal'
 // import { Inter } from 'next/font/google'
 
 const inter = Nunito({ subsets: ['latin'] })
-
+export const dynamic = 'auto';
 export const metadata: Metadata = {
   title: 'Lodgify',
   description: 'Book unique homes and experiences all over the world.',
