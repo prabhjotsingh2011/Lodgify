@@ -1,4 +1,4 @@
-
+// <reference types="world-countries" />
 import countries from "world-countries"
 
 
