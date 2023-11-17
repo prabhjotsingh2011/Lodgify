@@ -30,8 +30,8 @@ const UserMenu: React.FC<UserMenuProps> = ({
     const router = useRouter();
 
     const [isOpen, setIsOpen] = useState(false);
-    const toggleOpen = () => useCallback(() => {
-        setIsOpen((prev) => !prev);
+    const toggleOpen  = useCallback(() => {
+        setIsOpen(prev => !prev);
     }, []);
     const loginModal = useLoginModal();
     const rentModal=useRentModal();
